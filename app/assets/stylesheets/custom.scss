@@ -56,22 +56,27 @@ p {
 }
 
 /* ヘッダー */
+
+#logo{
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  text-transform: none;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  color: #fff;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#logo:hover{
+  color: #808080;
+  text-decoration: none;
+}
 .header{
   margin: 0;
   background-color:#008080;
   height: 50px;
-}
-
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: #fff;
-  text-transform: none;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-  font-style: italic;
 }
 
 /* デバッグウインドウ */
